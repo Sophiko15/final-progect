@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c65ce4;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
+header ul a{
+    color: #ffffff;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    margin-right: 30px;
+}
+header ul a:hover{
+    background-color: #5d0b72;
+    color: #000000;
+    border-radius: 0px 30px 0px 30px;
+}
+.logo{
+    margin-bottom: 5px ;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social {
+    width: 70px;
+    height: 140px;
+    position: fixed;
+    right: 0;
+    top: 300px;
+
+}
+
+.social div {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.social .instagram {
+    background-image: url(../img/instagram\ \(1\).png);
+
+}
+
+.social .facebook {
+    background-image: url(../img/facebook\ \(1\).png);
+
+}
+
+.social .instagram:hover {
+    background-image: url(../img/instagram.png);
+}
+
+.social .facebook:hover {
+    background-image: url(../img/facebook.png);
+
+}
+
+.social div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.fa-circle-arrow-up-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 4px;
+    
+}
+.fa-circle-arrow-up-icon a{
+    font-size: 34px;
+    color: #000000;
+}
+.fa-circle-arrow-up-icon a:hover{
+    color: #5d0b72;
+}
+/* mtavari gverdis dasawyisi */
+.slaidi{
+    width: 100%;
+    height: 500px;
+    background-color: #5d0b72;
+}
+.slaidi2{
+    width: 300px;
+    height: 270px;
+    background-color: #b6a406;
+}
+.slaidi2 img{
+    width: 50%;
+    height: 100%;
+}
+.item{
+    height: 600px;
+    overflow: hidden;
+    
+}
+.item img{
+    width: 200%;
+}
+.pataraslaidi{
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    margin: 50px;
+    background-color: #5d0b72;
+}
+.pataraslaidi{
+    width: 100%;
+    height: 50%;
+}
+article {
+    width: 428px;
+    height: 500px;
+    background-color: #5d0b72;
+    color: #000000;
+    margin: 30px auto;
+}
+
+.surati {
+    width: 428px;
+    height: 350px;
+    overflow: hidden;
+    
+}
+
+.surati img {
+    width: 100%;
+}
+.shidagverdi{
+    font-size: 22px;
+}
+/* mtavari gverdis dasaruli */
+/* benubrivi parikebis dasawyisi */
+
+.charcho5{
+    width: 250px;
+    height: 550px;
+    border: 1px solid #bfbfbf;
+    padding: 20px;
+}
+.moklekare{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.moklekare img{
+    width: 100%;
+}
+.name{
+    margin-bottom: 20px;
+}
+.name p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.fa-cart-shopping-icon{
+    color: #070606;
+    font-size: 30px;
+    text-align: right;
+}
+.fa-cart-shopping-icon:hover{
+    color: #c01111;
+}
+.charcho4{
+    padding: 100px;
+    clear: both;
+    flex-wrap: wrap;
+}
+.satauri3{
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 34px;
+    
+}
+.shop a{
+    color: #081d77;
+}
+/* bunebrivi parikebis dasasruli */
+/* xelovnuri parikis dasawyisi */
+
+.charcho{
+    width: 95%;
+    height: 700px;
+    margin: 50px auto;
+    background-color: #5d0b72;
+    border-radius: 20px;
+    clear: both;
+    flex-wrap: wrap;
+}
+
+.satauri{
+    font-size: 28px;
+    padding: 40px;
+}
+.xelovnuri{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+
+}
+.tma{
+    margin-left: 20px;
+    flex: none;
+}
+.fasi{
+    margin-left: 20px;
+    
+}
+.charcho2{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #b6a406;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.charcho2 img{
+    width: 100%;
+}
+.satauri2{
+    font-size: 28px;
+    padding: 40px;
+}
+/* xelovnuri parikis dasasruli */
+
+/* galeris dasawyisi */
+
+.charcho10{
+    width: 95%;
+    height: 100%;
+    background-color: #c65ce4;
+    clear: both;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+.galeri{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/* galeris dasasruli */
+
+ /* kontaqtebis sadawyisi */
+ .ruka{
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+ }
+ .kontaqtebi2{
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+ }
+ .kontaqtebi2 h2{
+    padding: 30px;
+    font-size: 28px;
+ }
+ .fa-solid{
+    padding: 20px;
+    font-size: 20px;
+ }
+ .kontaqtebi2 a{
+    padding: 20px;
+    font-size: 20px;
+    color: #000000;
+ }
+ /* kontaqtebis dasasruli */
+ footer{
+   
+    width: 100%;
+    height: 450px;
+    background-color: #000000;
+}
+.logo2{
+    margin-left: 600px;
+}
+.meore a{
+    color: #ffffff;
+    margin-left: 635px;
+    margin-top: 25px;
+}
+.mesame{
+    color: #ffffff;
+    margin-left: 615px;
+    margin-top: 50px;
+ }
